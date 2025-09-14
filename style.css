@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-aligns all text within the body by default */
+}
+
+/* Header Section */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 3px solid #3498db;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #34495e;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar a {
+    display: block;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Registration Card Section */
+.registration-info {
+    background-color: #34495e;
+    padding: 20px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+.registration-info h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-align: center; /* Correcting the alignment to be centered */
+}
+
+.registration-info p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Combined Button Styles */
+.register-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #080042;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 3px solid #3498db;
+}
